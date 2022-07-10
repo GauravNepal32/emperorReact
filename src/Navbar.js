@@ -1,12 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import NavbarMainLogo from "./images/emperor/companyLogo.png";
-import useFetch from "./useFetch";
 import MajorList from "./MajorList";
+import useFetch from "./useFetch";
+import SubjectList from "./SubjectList";
+
 
 const Navbar = () => {
-    const { error, isPending, data: countrySub } = useFetch("http://localhost:8000/USA")
-    console.log(countrySub)
+    const {
+        data: countrySub,
+    } = useFetch("http://localhost:8000/majorUSA");
+    const {
+        data: countryCourses,
+    } = useFetch("http://localhost:8000/subjectUSA");
     return (
         <header className='mx-0 px-0'>
             <nav className='navbar navbar-expand-lg main-navbar'>
@@ -121,156 +127,14 @@ const Navbar = () => {
                                             <div className='row row-cols-lg-4 row-cols-1 '>
                                                 <div className='col sub-first-col p-3'>
                                                     <div className='long-sub-1'>
-
-                                                        <ul className='list-unstyled'>
-                                                            {/* <MajorList countrySub={countrySub} /> */}
-                                                            <Link
-                                                                className='text-decoration-none'
-                                                                to='/USA/${USA.id}'>
-                                                                <li>Study in USA</li>
-                                                            </Link>
-                                                            <Link
-                                                                className='text-decoration-none'
-                                                                to='/bachelorUSA'>
-                                                                <li>Bachelors in USA</li>
-                                                            </Link>
-                                                            <Link
-                                                                className='text-decoration-none'
-                                                                to='/major'>
-                                                                <li>Study in USA</li>
-                                                            </Link>
-                                                            <Link
-                                                                className='text-decoration-none'
-                                                                to='/bachelorUSA'>
-                                                                <li>Bachelors in USA</li>
-                                                            </Link>
-                                                            <Link
-                                                                className='text-decoration-none'
-                                                                to='/major'>
-                                                                <li>Study in USA</li>
-                                                            </Link>
-                                                            <Link
-                                                                className='text-decoration-none'
-                                                                to='/bachelorUSA'>
-                                                                <li>Bachelors in USA</li>
-                                                            </Link>
-                                                            <Link
-                                                                className='text-decoration-none'
-                                                                to='/major'>
-                                                                <li>Study in USA</li>
-                                                            </Link>
-                                                            <Link
-                                                                className='text-decoration-none'
-                                                                to='/bachelorUSA'>
-                                                                <li>Bachelors in USA</li>
-                                                            </Link>
-                                                            <Link
-                                                                className='text-decoration-none'
-                                                                to='/major'>
-                                                                <li>Study in USA</li>
-                                                            </Link>
-                                                            <Link
-                                                                className='text-decoration-none'
-                                                                to='/bachelorUSA'>
-                                                                <li>Bachelors in USA</li>
-                                                            </Link>
-                                                            <Link
-                                                                className='text-decoration-none'
-                                                                to='/major'>
-                                                                <li>Study in USA</li>
-                                                            </Link>
-                                                            <Link
-                                                                className='text-decoration-none'
-                                                                to='/bachelorUSA'>
-                                                                <li>Bachelors in USA</li>
-                                                            </Link>
-                                                            <Link
-                                                                className='text-decoration-none'
-                                                                to='/major'>
-                                                                <li>Study in USA</li>
-                                                            </Link>
-                                                            <Link
-                                                                className='text-decoration-none'
-                                                                to='/bachelorUSA'>
-                                                                <li>Bachelors in USA</li>
-                                                            </Link>
-                                                        </ul>
+                                                        {countrySub && <MajorList countrySub={countrySub} />}
                                                     </div>
                                                 </div>
                                                 <div className='col p-3 overflow-hidden'>
                                                     <div className='long-sub-2'>
                                                         <ul className='list-unstyled'>
                                                             <li className='alphabet-heading'>A-E</li>
-                                                            <Link
-                                                                className='text-decoration-none'
-                                                                to='/mbaUSA'>
-                                                                <li>MBA in USA</li>
-                                                            </Link>
-                                                            <Link
-                                                                className='text-decoration-none'
-                                                                to='/itUSA'>
-                                                                <li>IT in USA</li>
-                                                            </Link>
-                                                            <Link
-                                                                className='text-decoration-none'
-                                                                to='/mbaUSA'>
-                                                                <li>MBA in USA</li>
-                                                            </Link>
-                                                            <Link
-                                                                className='text-decoration-none'
-                                                                to='/itUSA'>
-                                                                <li>IT in USA</li>
-                                                            </Link>
-                                                            <Link
-                                                                className='text-decoration-none'
-                                                                to='/mbaUSA'>
-                                                                <li>MBA in USA</li>
-                                                            </Link>
-                                                            <Link
-                                                                className='text-decoration-none'
-                                                                to='/itUSA'>
-                                                                <li>IT in USA</li>
-                                                            </Link>
-                                                            <Link
-                                                                className='text-decoration-none'
-                                                                to='/mbaUSA'>
-                                                                <li>MBA in USA</li>
-                                                            </Link>
-                                                            <Link
-                                                                className='text-decoration-none'
-                                                                to='/itUSA'>
-                                                                <li>IT in USA</li>
-                                                            </Link>
-                                                            <Link
-                                                                className='text-decoration-none'
-                                                                to='/mbaUSA'>
-                                                                <li>MBA in USA</li>
-                                                            </Link>
-                                                            <Link
-                                                                className='text-decoration-none'
-                                                                to='/itUSA'>
-                                                                <li>IT in USA</li>
-                                                            </Link>
-                                                            <Link
-                                                                className='text-decoration-none'
-                                                                to='/mbaUSA'>
-                                                                <li>MBA in USA</li>
-                                                            </Link>
-                                                            <Link
-                                                                className='text-decoration-none'
-                                                                to='/itUSA'>
-                                                                <li>IT in USA</li>
-                                                            </Link>
-                                                            <Link
-                                                                className='text-decoration-none'
-                                                                to='/mbaUSA'>
-                                                                <li>MBA in USA</li>
-                                                            </Link>
-                                                            <Link
-                                                                className='text-decoration-none'
-                                                                to='/itUSA'>
-                                                                <li>IT in USA</li>
-                                                            </Link>
+                                                            {countryCourses && <SubjectList countryCourses={countryCourses} />}
                                                         </ul>
                                                     </div>
                                                 </div>

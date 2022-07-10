@@ -96,6 +96,8 @@
         overflow-y: scroll;
         color: #0A2343;
     }
+    
+    .countrySub-List {}
     /* .long-sub-1 ul,
     .long-sub-2 ul {
         max-height: 390px;
@@ -129,7 +131,7 @@
     }
     /* Hide scrollbar for Chrome, Safari and Opera */
     
-    .long-sub-1 ul::-webkit-scrollbar {
+    .countrySub-List::-webkit-scrollbar {
         display: none;
         background-color: #dfdfdf;
         width: 1px;
@@ -141,21 +143,23 @@
     }
     
     .long-sub-2 ul::-webkit-scrollbar,
-    .long-sub-1 ul::-webkit-scrollbar-button,
+    .countrySub-List ul::-webkit-scrollbar-button,
+    .countrySub-List::-webkit-scrollbar-button,
     .long-sub-2 ul::-webkit-scrollbar-button {
         background-color: #fff;
         display: none;
     }
     
-    .long-sub-1 ul li::-webkit-scrollbar,
+    .countrySub-List li::-webkit-scrollbar,
     .long-sub-2 ul li::-webkit-scrollbar,
-    .long-sub-1 ul li::-webkit-scrollbar-button,
+    .countrySub-List li::-webkit-scrollbar-button,
     .long-sub-2 ul li::-webkit-scrollbar-button {
         display: none;
     }
     /* Hide scrollbar for IE, Edge and Firefox */
     
     .long-sub-1 ul,
+    .countrySub-List,
     .long-sub-2 ul {
         -ms-overflow-style: none;
         /* IE and Edge */
@@ -630,6 +634,7 @@
             max-height: 400px;
         }
         .long-sub-1 ul,
+        .countrySub-List,
         .long-sub-2 ul {
             max-height: 390px;
             overflow: scroll;

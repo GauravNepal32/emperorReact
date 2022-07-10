@@ -3,7 +3,6 @@ import * as FontAwesome from "react-icons/fa";
 
 const Icons = (props) => {
     const iconString = props.iconName;
-    console.log(iconString);
     const beer = React.createElement(FontAwesome[iconString]);
     return (
         <div>

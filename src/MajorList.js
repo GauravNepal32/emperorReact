@@ -1,25 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 const MajorList = (countrySub) => {
-    console.log(countrySub)
     return (
-        <div className="countrySub-List">
+        <div className='countrySub-List'>
             {countrySub.countrySub.map((Subject) => (
-                <div className="subject-preview" key={Subject.id}>
-                    < Link
+                <ul className='list-unstyled' key={Subject.id}>
+                    <Link
                         className='text-decoration-none'
-                        to={`/${Subject.country}/${Subject.id}`} >
-                        <li>{Subject.majorName} in {Subject.country}</li>
-                    </ Link>
-                </div>
-
-            ))
-            }
-
-        </div >
-
-
-    );
-}
+                        to={`/majorUSA/${Subject.id}`}>
+                        <li>
+                            {Subject.majorName} in {Subject.country}
+                        </li>
+                    </Link>
+                </ul>
+            ))}
+        </div>
+    )
+};
 
 export default MajorList;
