@@ -31,7 +31,7 @@
 
     "majorUSA": [{
             "majorName": "MBA",
-            "HighLights": "<li>lorem lorem lorem lorem <li /><li>lorem lorem lorem lorem <li /><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
+            "HighLights": "<li>lorem lorem lorem lorem </li><li>lorem lorem lorem lorem </li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
             "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
             "country": "USA",
             "id": 1
@@ -56,20 +56,20 @@
             "HighLights": "<li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
             "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
             "country": "USA",
-            "id": "nursingUSA"
+            "id": 4
 
         }, {
             "majorName": "Doctrate",
             "HighLights": "<li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
             "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
             "country": "USA",
-            "id": "doctrateUSA"
+            "id": 5
         }, {
             "majorName": "MBA",
             "HighLights": "<li>lorem lorem lorem lorem <li /><li>lorem lorem lorem lorem <li /><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
             "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
             "country": "USA",
-            "id": 1
+            "id": 6
 
 
         },
@@ -78,20 +78,20 @@
             "HighLights": "<li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
             "country": "USA",
             "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
-            "id": 2
+            "id": 7
 
         }, {
             "majorName": "IT",
             "HighLights": "<li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
             "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
             "country": "USA",
-            "id": 3
+            "id": 8
         }, {
             "majorName": "MBA",
             "HighLights": "<li>lorem lorem lorem lorem <li /><li>lorem lorem lorem lorem <li /><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
             "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
             "country": "USA",
-            "id": 1
+            "id": 9
 
 
         },
@@ -100,31 +100,55 @@
             "HighLights": "<li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
             "country": "USA",
             "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
-            "id": 2
+            "id": 10
 
         }, {
             "majorName": "IT",
             "HighLights": "<li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
             "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
             "country": "USA",
-            "id": 3
+            "id": 11
         }, {
             "majorName": "Bachelors",
             "HighLights": "<li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
             "country": "USA",
             "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
-            "id": 2
+            "id": 12
 
         }, {
             "majorName": "IT",
             "HighLights": "<li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
             "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
             "country": "USA",
-            "id": 3
+            "id": 13
+        },{
+            "majorName": "IIT",
+            "HighLights": "<li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
+            "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
+            "country": "UK",
+            "id": 14
+        },{
+            "majorName": "IIT",
+            "HighLights": "<li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
+            "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
+            "country": "UK",
+            "id": 15
+        },{
+            "majorName": "IIfT",
+            "HighLights": "<li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
+            "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
+            "country": "UK",
+            "id": 16
+        },{
+            "majorName": "IIfT",
+            "HighLights": "<li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
+            "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
+            "country": "UK",
+            "id": 17
         }
     ],
     "subjectUSA": [{
-            "subjectName": "MBA",
+            "subjectName": "Accounting",
             "HighLights": "<li>lorem lorem lorem lorem <li /><li>lorem lorem lorem lorem <li /><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
             "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
             "country": "USA",
@@ -133,14 +157,14 @@
 
         },
         {
-            "subjectName": "Bachelors",
+            "subjectName": "Computing",
             "HighLights": "<li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
             "country": "USA",
             "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
             "id": 2
 
         }, {
-            "subjectName": "IT",
+            "subjectName": "Computing",
             "HighLights": "<li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
             "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
             "country": "USA",
@@ -150,20 +174,20 @@
             "HighLights": "<li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
             "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
             "country": "USA",
-            "id": "nursingUSA"
+            "id": 4
 
         }, {
-            "subjectName": "Doctrate",
+            "subjectName": "Computing",
             "HighLights": "<li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
             "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
             "country": "USA",
-            "id": "doctrateUSA"
+            "id": 5
         }, {
             "subjectName": "MBA",
             "HighLights": "<li>lorem lorem lorem lorem <li /><li>lorem lorem lorem lorem <li /><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
             "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
             "country": "USA",
-            "id": 1
+            "id": 6
 
 
         },
@@ -172,20 +196,20 @@
             "HighLights": "<li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
             "country": "USA",
             "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
-            "id": 2
+            "id": 7
 
         }, {
-            "subjectName": "IT",
+            "subjectName": "Chatered Accountant",
             "HighLights": "<li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
             "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
             "country": "USA",
-            "id": 3
+            "id": 8
         }, {
-            "subjectName": "MBA",
+            "subjectName": "Accounting",
             "HighLights": "<li>lorem lorem lorem lorem <li /><li>lorem lorem lorem lorem <li /><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
             "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
             "country": "USA",
-            "id": 1
+            "id": 9
 
 
         },
@@ -194,28 +218,69 @@
             "HighLights": "<li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
             "country": "USA",
             "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
-            "id": 2
+            "id": 10
 
         }, {
-            "subjectName": "IT",
+            "subjectName": "IT in Networking",
             "HighLights": "<li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
             "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
             "country": "USA",
-            "id": 3
+            "id": 11
         }, {
             "subjectName": "Bachelors",
             "HighLights": "<li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
             "country": "USA",
             "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
-            "id": 2
+            "id": 12
 
         }, {
-            "subjectName": "IT",
+            "subjectName": "Zachman Management",
             "HighLights": "<li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
             "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
             "country": "USA",
-            "id": 3
+            "id": 13
+        }, {
+            "subjectName": "Hachman Management",
+            "HighLights": "<li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
+            "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
+            "country": "USA",
+            "id": 14
+        }, {
+            "subjectName": "Dachman Management",
+            "HighLights": "<li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
+            "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
+            "country": "USA",
+            "id": 15
+        },
+        {
+            "subjectName": "Accounting",
+            "HighLights": "<li>lorem lorem lorem lorem <li /><li>lorem lorem lorem lorem <li /><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
+            "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
+            "country": "UK",
+            "id": 16
+
+
+        },
+        {
+            "subjectName": "Computing",
+            "HighLights": "<li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
+            "country": "UK",
+            "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
+            "id": 17
+
+        }, {
+            "subjectName": "Computing",
+            "HighLights": "<li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
+            "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
+            "country": "UK",
+            "id": 18
+        }
+        ,{
+            "subjectName": "Zachman",
+            "HighLights": "<li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
+            "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
+            "country": "UK",
+            "id": 19
         }
     ]
-
 }

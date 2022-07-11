@@ -13,12 +13,14 @@ import shreyaImg from "./images/clients/43.png";
 import krishnaImg from "./images/clients/three.png";
 import Testimonials from "./Testimonials";
 import useFetch from "./useFetch";
+import SearchBox from "./SearchBox";
 
 const Home = () => {
     const { data: countries, error, isPending } = useFetch('http://localhost:8000/countries');
     return (
         <>
             <div className='front-main-container'>
+                <SearchBox />
                 <div className='main-container container mt-5 px-md-5'>
                     <div className='row mb-200 mt-5 pt-5 row-cols-sm-2 row-cols-1 landing-container'>
                         <div className='col d-flex pt-5 order-sm-0 order-1 justify-content-center'>

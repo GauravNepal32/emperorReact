@@ -5,9 +5,12 @@ import useFetch from "./useFetch";
 
 const Major = () => {
     const { id } = useParams();
-    console.log(id);
-    const { data: Subject, error, isPending } = useFetch(' http://localhost:8000/majorUSA/' + id);
-    console.log(Subject)
+    const {
+        data: Subject,
+        error,
+        isPending,
+    } = useFetch(" http://localhost:8000/majorUSA/" + id);
+    console.log(Subject);
     return (
         <div className='main-container my-5'>
             <div className='container px-sm-5'>
@@ -43,14 +46,16 @@ const Major = () => {
                                     <div>
                                         <h1 className='main-heading'>
                                             {Subject.majorName} in {Subject.country}
-
                                         </h1>
                                         <h3 className='major-sub-heading mt-4'>
-                                            Highlights of  {Subject.majorName} in {Subject.country}
+                                            Highlights of {Subject.majorName} in {Subject.country}
                                         </h3>
 
                                         <ul className='uList mt-3'>
-                                            {Subject.HighLights}
+                                            <div
+                                                dangerouslySetInnerHTML={{
+                                                    __html: Subject["HighLights"],
+                                                }}></div>
                                         </ul>
                                     </div>
                                 </div>
@@ -68,18 +73,21 @@ const Major = () => {
                                     />
                                 </div>
                                 <p className='img-caption text-center mt-4'>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed,
-                                    cupiditate?
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Sed, cupiditate?
                                 </p>
                                 <div className='success-rate mt-5'>
-                                    <img className='img-fluid' src='../images/success.png' alt='' />
+                                    <img
+                                        className='img-fluid'
+                                        src='../images/success.png'
+                                        alt=''
+                                    />
                                 </div>
                                 <div className='major-description-container'></div>
                             </div>
                         </div>
                         <CallBack />
                     </div>
-
                 )}
             </div>
         </div>
