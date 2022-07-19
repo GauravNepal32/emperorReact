@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@500&display=swap');
 * {
     border: 0;
     padding: 0;
@@ -101,6 +100,30 @@ header .long-dropdown {
 }
 
 
+
+.home-dropDown:hover .home-dropdown-container,
+.usa-dropDown:hover .usa-dropdown-container,
+.uk-dropDown:hover .uk-dropdown-container,
+.canada-dropDown:hover .canada-dropdown-container,
+.aus-dropDown:hover .aus-dropdown-container {
+    display: block;
+}
+
+.home-dropDown:hover .main-heading{
+    background-color: #0A2343;
+}
+
+
+.avoid-Scroll{
+    height: 100vh;
+    overflow-y: hidden;
+  }
+
+.avoid-Scroll{
+    height: 90vh;
+}
+
+
 /* .long-sub-1 ul,
     .long-sub-2 ul {
         max-height: 390px;
@@ -134,7 +157,7 @@ header .long-dropdown {
 }
 
 
-/* Hide scrollbar for Chrome, Safari and Opera */
+/* Hide scrollbar htmlFor Chrome, Safari and Opera */
 
 .long-sub-1 ul::-webkit-scrollbar {
     display: none;
@@ -162,7 +185,7 @@ header .long-dropdown {
 }
 
 
-/* Hide scrollbar for IE, Edge and Firefox */
+/* Hide scrollbar htmlFor IE, Edge and Firefox */
 
 .long-sub-1 ul,
 .long-sub-2 ul {
@@ -612,10 +635,6 @@ header .long-dropdown {
     background-color: #0F7A9B;
     color: white;
 }
-.dropdown-item.active,.dropdown-item.active {
-    background-color: #0A2343;
-}
-
 /* .search-form-container div,
 .search-form-container {
     height: 50px;
@@ -745,8 +764,17 @@ height: auto;
 padding: 50px;
 
 }
-.itels-prep-container,.pte-prep-container{
+.odd-prep-container{
     background-color: #f0f0f0;
+}
+
+.odd-prep-container .prep-image-container,
+.even-prep-container .prep-info-container{
+    order: 1;
+}
+.even-prep-container .prep-image-container,
+.odd-prep-container .prep-info-container{
+    order: 0;
 }
 .test-main-heading{
     font-weight: bold;
@@ -813,77 +841,6 @@ textarea{
 }
 
 
-
-.faq {
-    margin: 20px 0;
-    padding: 30px;
-    position: relative;
-    overflow: hidden;
-    border-bottom: 2px solid #cccccc;
-
-}
-
-.faq.active {
-    transition: 1s ease-in;
-
-}
-
-.faq.active::before {
-    color: #3498db;
-    top: -10px;
-    left: -30px;
-    transform: rotateY(180deg);
-}
-
-.faq-title {
-    margin: 0 35px 0 0;
-    font-size: 19px;
-}
-
-.faq-text {
-    display: none;
-    margin: 30px 0 0;
-    transition: 1s ease-out;
-}
-
-.faq.active .faq-text {
-    display: block;
-}
-
-.faq-first .faq-text {
-    display: block;
-}
-
-.faq-toggle {
-    background-color: transparent;
-    border: 0;
-    border-radius: 50%;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 16px;
-    padding: 0;
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    height: 30px;
-    width: 30px;
-}
-
-.faq-toggle:focus {
-    outline: 0;
-}
-
-.faq-toggle .bi-x {
-    display: none;
-}
-
-.faq.active .faq-toggle .bi-x {
-    color: #222;
-    display: block;
-}
-
 .faq.active .faq-toggle .bi-chevron-down {
     display: none;
 }
@@ -914,6 +871,140 @@ textarea{
     height: 200px;
 }
 
+
+
+/* Left Out */
+
+.whatsapp-btn {
+    background-color: rgb(161, 232, 161);
+    border-radius: 10px 0px 0 10px;
+}
+
+.messenger-btn {
+    border-radius: 0px 10px 10px 0px;
+    background-color: #71a8f0;
+}
+.side-callback-wrapper {
+    position: sticky;
+    top: 15vh;
+}
+.lost-image-container{
+    width: 100%;
+    height: auto;
+}
+.lost-heading{
+    font-size: 180px;
+    background: -webkit-linear-gradient(#c193c5, #7bc6cc);
+    font-weight: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.lost-text-container h5{
+    background: -webkit-linear-gradient(#c193c5, #7bc6cc);
+    font-weight: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.callback-online-request-container {
+    max-width: 300px;
+    height: 270px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 2px solid #0e0e0e;}
+
+
+
+
+.hidden {
+  display: none;
+}
+.dropdown-item.active, .dropdown-item:active {
+    color: black;
+    background-color: transparent;
+}
+
+.small-company-logo{
+    width: 130px;
+    height: auto;
+}
+
+
+.sat-exam-child{
+    width: 250px;
+    display: flex;
+    margin: 20px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sat-child-image-container{
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
+@keyframes faq-answer-slide {
+    0% {
+        opacity: 0;
+        max-height: 0;
+    }
+
+    100% {
+        opacity: 1;
+        max-height: 500px;
+    }
+}
+
+.faq{
+    padding: 20px 0px;
+    border-bottom: 2px solid #cccccc;
+    cursor: pointer;
+}
+.faq .faq-question{
+    position: relative;
+    font-size: 1.2em;
+    font-weight: 900;
+    padding-right: 80px;
+    transition: all 0.4s ease;
+}
+.faq .faq-answer{
+    margin-top: 20px;
+    opacity: 0;
+    max-height: 0;
+    overflow-y: hidden;
+    transition: all 0.4s ease-out;
+
+}
+.faq .faq-question::after{
+    font-family: 'Material Icons';
+    content: 'expand_more';
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    width: 30px;
+    height: 30px;
+
+    transform: rotate(0deg);
+    transition: transform 0.4s linear;
+
+}
+.faq.open .faq-question{
+margin-bottom: 15px;
+}
+
+.faq.open .faq-question::after{
+transform: translateY(-50%) rotate(180deg);
+}
+.faq.open .faq-answer{
+max-height: 1000px;
+opacity: 1;
+ }
+
 /* Mobile screen */
 
 @media only screen and (max-width: 576px) {
@@ -941,7 +1032,14 @@ textarea{
         font-size: 50px;
     }
     .test-image-holder{
-        padding: 30px;
+        margin-top: 10px;
+        padding: 10px;
+    }
+    .info-paragraph{
+        font-size: 14px;
+    }
+    .contact-sub-container{
+        bottom: 80px;
     }
 }
 
@@ -971,9 +1069,15 @@ textarea{
         width: 300px;
         height: 300px;
     }
-    .navbarNavDropdown {
+    #navbarNavDropdown {
         width: 100vw;
         height: 100vh;
+        transition: 0s ease-in;
+        position: absolute;
+        top:0;
+        background-color: rgb(243, 243, 243);
+        right: 0;
+        overflow-y: scroll;
     }
     .navbar-close-btn {
         display: block;

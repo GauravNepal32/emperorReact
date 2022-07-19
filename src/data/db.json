@@ -28,8 +28,41 @@
         "URL": "/major",
         "id": 4
     }],
+    "Test":[{
+        "examName":"IELTS",
+        "examText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis."
+        ,"id":1,
+        "totalTime":"2 hours 45 minutes",
+        "landingImage":"../images/test/10 SCENE.svg"
+},
+    {
+        "examName":"SAT",
+        "examText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis."
+        ,"id":2,
+        "totalTime":"3 hours"
 
-    "majorUSA": [{
+
+    },
+    {
+        "examName":"PTE",
+        "examText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
+        "id":3,
+        "totalTime":"2 hours 15 minutes"
+
+
+    },
+    {
+        "examName":"TOFEL",
+        "examText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
+        "id":4,
+        "totalTime":"~ 3 hours"
+
+
+
+    }
+],
+
+    "major": [{
             "majorName": "MBA",
             "HighLights": "<li>lorem lorem lorem lorem </li><li>lorem lorem lorem lorem </li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
             "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
@@ -147,7 +180,7 @@
             "id": 17
         }
     ],
-    "subjectUSA": [{
+    "subject": [{
             "subjectName": "Accounting",
             "HighLights": "<li>lorem lorem lorem lorem <li /><li>lorem lorem lorem lorem <li /><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
             "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
@@ -303,8 +336,26 @@
             "subjectName": "Journalism",
             "HighLights": "<li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
             "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
-            "country": "Science in Nursing",
+            "country": "Australia",
             "id": 23
+        },{
+            "subjectName": "Journalism",
+            "HighLights": "<li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li><li>lorem lorem lorem lorem</li>",
+            "text1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui expedita nostrum repudiandae consequatur, ipsam odit facere eligendi maiores at porro commodi necessitatibus ipsum,minima corporis.",
+            "country": "Canada",
+            "id": 24
+        }
+    ],
+    "faq":{
+    "rows": [
+        {
+            "title": "Lorem ipsum dolor sit amet,",
+            "content": "Nunc maximus, magna at ultricies elementum, risus turpis vulputate quam, vitae convallis ex tortor sed dolor."
+        },
+        {
+            "title": "What is the package version",
+            "content": "<p>current version is 1.2.1</p>"
         }
     ]
+}
 }

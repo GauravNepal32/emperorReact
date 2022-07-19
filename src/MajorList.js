@@ -2,16 +2,17 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const MajorList = (props) => {
-  const { countrySub, countryName } = props;
+  const { countrySub, countryName, toggleNav } = props;
   return (
     <div className='countrySub-List'>
       {countrySub.map((Subject) => (
-        <div>
-          {Subject.country == countryName && (
-            <ul className='list-unstyled' key={Subject.id}>
+        <div key={Subject.id}>
+          {Subject.country === countryName && (
+            <ul className='list-unstyled'>
               <Link
+                onClick={toggleNav}
                 className='text-decoration-none'
-                to={`/majorUSA/${Subject.id}`}>
+                to={`/major/${Subject.id}`}>
                 <li>
                   {Subject.majorName} in {Subject.country}
                 </li>

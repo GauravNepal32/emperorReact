@@ -6,11 +6,10 @@ import useFetch from "./useFetch";
 const Major = () => {
     const { id } = useParams();
     const {
-        data: Subject,
-        error,
-        isPending,
-    } = useFetch(" http://localhost:8000/majorUSA/" + id);
-    console.log(Subject);
+      data: Subject,
+      error,
+      isPending,
+    } = useFetch(" http://localhost:8000/major/" + id);
     return (
         <div className='main-container my-5'>
             <div className='container px-sm-5'>

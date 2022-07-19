@@ -24,7 +24,7 @@ const Home = () => {
     isPending,
   } = useFetch("http://localhost:8000/countries");
   return (
-    <>
+    <div id='scroll-container' className='main-container'>
       <div className='front-main-container'>
         <SearchBox />
         <div className='main-container container mt-5 px-md-5'>
@@ -52,7 +52,7 @@ const Home = () => {
                 <img
                   className='img-fluid landing-image'
                   src={landingImage}
-                  alt='Connecting World Image'
+                  alt='Connecting World'
                 />
               </div>
             </div>
@@ -309,7 +309,7 @@ const Home = () => {
           <LocationMap />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
