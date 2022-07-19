@@ -67,7 +67,7 @@ const Navbar = () => {
                     role='button'
                     data-bs-toggle='dropdown'
                     aria-expanded='false'>
-                    Home{" "}
+                    Home
                     <span className='drop-icon'>
                       <i className='bi bi-chevron-down'></i>
                     </span>
@@ -76,7 +76,7 @@ const Navbar = () => {
                     className='list-unstyled small-dropdown home-dropdown-container'
                     aria-labelledby='navbarDropdownMenuLink'>
                     <li>
-                      <Link className='dropdown-item' to='a'>
+                      <Link className='dropdown-item' to='/about'>
                         About Us
                       </Link>
                     </li>
@@ -87,17 +87,12 @@ const Navbar = () => {
                     </li>
                     <li>
                       <Link className='dropdown-item' to='a'>
-                        For University
+                        Test Preparation
                       </Link>
                     </li>
                     <li>
                       <Link className='dropdown-item' to='a'>
-                        For Franchise
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className='dropdown-item text-danger' to='a'>
-                        We're Hirring
+                        Contact Us
                       </Link>
                     </li>
                   </ul>
